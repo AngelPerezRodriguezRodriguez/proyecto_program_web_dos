@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="imagenes/tarea_06/06.png">
+    <meta name="description" content="Programación Web II: tarea 06">
+    <meta name="keywords" content="UNAM, FES Aragón, ICO, Programación Web II, Proyecto, Tareas, Actividades, JavaScript, Tarea 06">
+    <link rel="stylesheet" type="text/css" href="estilos/estilos_t06.css">
+
+    <title>Tarea 06</title>
+
+    <script>
+        function saludo01() {
+            alert("Saludo desde el HEAD...");
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        function saludo02() {
+            alert("Saludo desde el BODY...");
+        }
+    </script>
+
+    <section id="contenido_completo">
+
+        <section id="principal">
+
+            <section id="bienvenidos">
+                <article>
+                    <a href="tarea_06.html"><h2>Tarea Número 06</h2></a>
+
+                    <p>
+                        Mi primera aplicación con JavaScript:
+
+                        <ul>
+                            <li>Método alert( )</li>
+                            <li>Botones y funciones</li>
+                            <li>Método console.log( )</li>
+                        </ul>
+                    </p>     
+                </article>
+            </section>
+
+            <section id="desarrollo">
+                <h2>Primer ejercicio</h2>
+                <p>Función declarada desde la etiqueta <b>head</b>:</p>
+                <img src="imagenes/tarea_06/cap_01.PNG" alt="captura 01">
+                <div><button onclick="saludo01()">Saludo 01</button></div>
+
+                <h2>Segundo ejercicio</h2>
+                <p>Función declarada desde la etiqueta <b>body</b>:</p>
+                <img src="imagenes/tarea_06/cap_02.PNG" alt="captura 02">
+                <div><button onclick="saludo02()">Saludo 02</button></div>
+                
+                <h2>Tercer ejercicio</h2>
+                <p>Función declarada desde un <b>archivo js</b>:</p>
+                <img src="imagenes/tarea_06/cap_03.PNG" alt="captura 03">
+                <div><button onclick="despedida()">Despedida</button></div>
+
+                <h2>Cuarto ejercicio</h2>
+                <p>Funciones con alertas variadas desde un <b>archivo js</b>:</p>
+                <img src="imagenes/tarea_06/cap_04.PNG" alt="captura 04">
+                <div><button onclick="MagicalMisteryTour()">Álbum Magical Mistery Tour</button></div>
+                <div><button onclick="AbbeyRoad()">Álbum Abbey Road</button></div>
+                <div><button onclick="Help()">Álbum Help</button></div>
+
+                <h2>Quinto ejercicio</h2>
+                <p>Impresión de diferentes tipos de variables en <b>consola</b>:</p>
+                <img src="imagenes/tarea_06/cap_05.PNG" alt="captura 05">
+                <img src="imagenes/tarea_06/cap_06.PNG" alt="captura 06">
+            </section>
+
+            <section id="tareas">
+                <h1>
+                    Navega por las diferentes actividades
+                </h1>
+
+                <table class="tabla_tareas">
+                    <tr>
+                        <td>
+                            <a href="index.html">
+                                Inicio
+                                <img src="imagenes/index/wallpaper_index.gif" alt="fondo_index">
+                            </a>
+                        </td>
+                      
+                        <td>
+                            <a href="tarea_01.html">
+                                Tarea no. 01
+                                <img src="imagenes/tarea_01/wallpaper_01.gif" alt="fondo_t01">
+                            </a>
+                        </td>            
+                    </tr>
+                  
+                    <tr>
+                        <td>
+                            <a href="tarea_05.html">
+                                Tarea no. 05
+                                <img src="imagenes/tarea_05/wallpaper_05.gif" alt="fondo_t05">
+                            </a>
+                        </td>
+                  
+                        <td>
+                            <a href="tarea_07.html">
+                                Tarea no. 07
+                                <img src="imagenes/tarea_07/wallpaper_07.gif" alt="fondo_t07">
+                            </a>
+                        </td>
+                    </tr>        
+                </table>
+            </section>
+        </section>
+    </section>
+
+    <footer> 
+        <section id="copyright">
+            <p>Facultad de Estudios Superiores Aragón - Noviembre 2022</p>
+        </section>
+    </footer>
+</body>
+
+<script src="javascript/app_06.js"></script>
+
+</html>

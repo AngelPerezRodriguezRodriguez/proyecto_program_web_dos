@@ -1,0 +1,212 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+
+body {
+    background-attachment: fixed;
+    background-image: url(../imagenes/tarea_01/wallpaper.PNG);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; 
+}
+
+/* Remueve los subrayados por defecto cuando implementamos <a> */
+a {   
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#contenido_completo {   
+    clear: both; 
+    margin: auto;                                                                                         
+    width: 1200px;
+} /* PRINCIPAL / CONTACTOS */
+
+
+
+#principal {
+    float: left;
+    padding-top: 65px;
+    width: 100%;
+} /* BIENVENIDA / TAREAS */
+
+
+
+
+
+
+/* BIENVENIDA */
+
+#bienvenidos{
+    background-color: #145369;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #000; /* Derecha, abajo y difuminado */
+    float: left;
+    margin: 0px 0px 50px 0px; /* Arriba, derecha, abajo e izquierda. Espacio entre bienvenida y proyectos */
+    padding: 0px; /* Nos puede ser de utilidad en un futuro */
+    width: 100%;
+}
+
+#bienvenidos article {
+    line-height: 40px; /* Espacio entre los renglones */
+    padding: 40px;
+}
+
+/* Título */
+#bienvenidos article h2 {
+    background-color: #041014;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold; /* Grueso de la fuente */
+    margin-bottom: 30px;
+    padding: 15px 0px; /* Espacio entre el título y el texto */
+    text-align: center;
+}
+
+/* Contenido */
+#bienvenidos article p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
+
+
+
+/* DESARROLLO */
+#desarrollo {
+    background-color: #145369;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #000;
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#desarrollo div {
+    float: left;
+    margin: 0px 30px 0px 30px;
+    width: 25%;
+}
+
+#desarrollo div img {
+    border: white solid 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+
+    transition: border 0.75s;
+}
+
+#desarrollo div img:hover {
+    border: black solid 10px;
+}
+
+#desarrollo h2 {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#desarrollo p {
+    float: right;
+    line-height:30px; 
+    margin: 0px 30px 30px 0px;
+    text-align:justify;
+    width: 65%;
+}
+
+#desarrollo nav a {
+    float: left;
+    font-size: 25px; 
+    margin-bottom: 50px;
+    text-align: center;
+    width: 33%;
+
+    transition: color 0.5s;
+}
+
+#desarrollo nav a:hover {
+    color: black;
+}
+
+
+
+
+
+/* TAREAS */
+#tareas {
+    float: left;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Título */
+#tareas h1 {
+    background-color: #E0B60D;
+    border-radius: 10px;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+#tareas table tr td {
+    border-radius: 10px; /* No se puede ocupar con un border. Se pierde la propiedad */
+    font-family: computer;
+    font-size: 70px;
+    padding: 150px 25px;
+    width: 50%;
+
+    position: relative;
+}
+
+
+#tareas table tr td img {
+    border-radius: 10px;
+
+    position: absolute;
+
+    /* Poscisionamos la imagen "absolute" sobre el td "relative" */
+    left: 0px;
+    top: 0px;
+
+    /* Podríamos recortar la imagen a medida */
+    height: 100%;
+    width: 100%;
+    
+    opacity: 0;
+    transition: opacity 0.75s;
+}
+
+#tareas table tr td img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+#copyright{
+    background-color: black;
+    color: white;
+    float: left;
+    height: 100%;
+    padding: 30px 0px;
+    text-align: center;
+    width: 100%;
+}

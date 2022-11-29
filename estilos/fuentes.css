@@ -1,0 +1,9 @@
+@font-face {
+    font-family: computer;
+    src: url(../fuentes/computerfont/computerfront.ttf);
+}
+
+@font-face {
+    font-family: games;
+    src: url(../fuentes/video_games/video_games.ttf);
+}
